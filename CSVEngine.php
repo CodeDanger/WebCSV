@@ -299,15 +299,22 @@ class CSV
                     <tbody>
                     <tr>
                     ";
-                    for($k = 0 ; $k<count( $this->columns ) ; $k++ )
-                    {
-                        foreach($this->getItemsByColumn( $this->columns[$k] ) as $v )
-                        {
+                    $counter = 0;
+
+                    foreach($this->items as $key=>$v )
+                    {       
+                            if(($counter+1)>count($this->columns))
+                            {
+                                echo "<tr>";
+                                $counter = 0;
+                            }                            
                             echo"<td>".$v->getContent()."</td>";
-                        }
+                            if( $counter == (count($this->columns)-1) )
+                                echo"</tr>";
+                            $counter++;
+
                     }
                     echo "
-                    </tr>
                     </tbody>";
                 
             }
