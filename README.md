@@ -1,6 +1,7 @@
 # WebCVS
 ## Functions to use untill now
-```addColumn
+```
+addColumn
 addItem
 setItemRow//working on it
 display
