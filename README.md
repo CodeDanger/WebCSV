@@ -1,4 +1,4 @@
-# WebCVS
+# WebCSV
 ## Functions to use untill now
 ```
 addColumn
