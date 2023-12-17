@@ -8,6 +8,6 @@ display
 ```
 
 # License
-- The WebCSV is open-sourced software licensed with some cundtion like:
+- The WebCSV is open-sourced software licensed with some conditions like:
 
-[Under Islamic law laws]
+[Under Islamic law]
